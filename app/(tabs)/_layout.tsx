@@ -34,12 +34,42 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="config"
         options={{
           title: 'Explore',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
+
+<Tabs.Screen
+        name="emulador"
+        options={{
+          title: 'radio',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="radio" color={color} />,
+        }}
+      />
+
+<Tabs.Screen
+        name="estrutura"
+        options={{
+          title: 'circle',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="circle" color={color} />,
+        }}
+      />
+
+<Tabs.Screen
+        name="sobre"
+        options={{
+          title: 'star',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="star" color={color} />,
+        }}
+      />
+
+      
     </Tabs>
+
+  
+
+    
   );
 }
